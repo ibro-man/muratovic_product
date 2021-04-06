@@ -1,13 +1,13 @@
 import java.util.LinkedList;
 
-public class Company 
+public class Company
 {
-	private LinkedList<Product> products;
+	private TreeSet<Product> products;
 	private String name;
-	
+
 	public Company(String name)
 	{
-		products = new LinkedList<>();
+		products = new TreeSet<>();
 		setName("IBM");
 	}
 
@@ -20,4 +20,5 @@ public class Company
 	{
 		this.name = name;
 	}
+
 }
