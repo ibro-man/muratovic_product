@@ -3,13 +3,13 @@ public class Product
 {
 	private String name;
 	private float price;
-	private boolean onStock;
+	private int id;
 
 	public Product(String name)
 	{
 		setName("Coca Cola");
 		setPrice(10);
-		setOnStock(true);
+		setId(id);
 	}
 	public int getPrice()
 	{
@@ -28,14 +28,14 @@ public class Product
 		this.name = name;
 	}
 
-	public boolean getOnStock()
+	public int getId()
 	{
-		return onStock;
+		return id;
 	}
 
-	public void setOnStock(boolean onstock)
+	public void setId(int id)
 	{
-		this.onStock = onstock;
+		this.id = id;
 	}
 
 

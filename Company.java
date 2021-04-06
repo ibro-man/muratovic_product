@@ -2,12 +2,12 @@ import java.util.LinkedList;
 
 public class Company
 {
-	private TreeSet<Product> products;
+	private LinkedList<Product> products;
 	private String name;
 
 	public Company(String name)
 	{
-		products = new TreeSet<>();
+		products = new LinkedList<>();
 		setName("IBM");
 	}
 
